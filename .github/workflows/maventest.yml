@@ -38,11 +38,3 @@ jobs:
         with:
           name: allure-results
           path: allure-results/
-
-      - name: Publish Test Report
-        if: always()
-        uses: dorny/test-reporter@v1
-        with:
-          name: TestNG Report
-          path: target/surefire-reports/testng-results.xml
-          reporter: java-testng
