@@ -422,3 +422,241 @@
 2025-06-27 12:33:05,797 INFO f.p.InventoryPage [main] Page title: Products
 2025-06-27 12:33:05,797 INFO t.LoginTest [main] Page title is: Products
 2025-06-27 12:33:05,821 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 17:52:46,440 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 17:52:50,101 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 17:52:50,148 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 17:52:54,522 INFO t.InventoryTest [main] Inventory Page test begins
+2025-07-01 17:52:54,572 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 17:52:55,248 INFO t.InventoryTest [main] Verifying page title...
+2025-07-01 17:52:55,311 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 17:52:55,341 INFO f.p.InventoryPage [main] Total number of products: 6
+2025-07-01 17:52:55,341 INFO t.InventoryTest [main] Verifying product count...
+2025-07-01 17:52:55,412 INFO f.p.InventoryPage [main] Product name: Sauce Labs Backpack
+2025-07-01 17:52:55,445 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bike Light
+2025-07-01 17:52:55,480 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bolt T-Shirt
+2025-07-01 17:52:55,513 INFO f.p.InventoryPage [main] Product name: Sauce Labs Fleece Jacket
+2025-07-01 17:52:55,545 INFO f.p.InventoryPage [main] Product name: Sauce Labs Onesie
+2025-07-01 17:52:55,584 INFO f.p.InventoryPage [main] Product name: Test.allTheThings() T-Shirt (Red)
+2025-07-01 17:52:55,584 INFO t.InventoryTest [main] Verifying product names are listed...
+2025-07-01 17:52:55,650 INFO f.p.InventoryPage [main] Product price: $29.99
+2025-07-01 17:52:55,686 INFO f.p.InventoryPage [main] Product price: $9.99
+2025-07-01 17:52:55,725 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 17:52:55,831 INFO f.p.InventoryPage [main] Product price: $49.99
+2025-07-01 17:52:55,868 INFO f.p.InventoryPage [main] Product price: $7.99
+2025-07-01 17:52:55,907 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 17:52:55,908 INFO t.InventoryTest [main] Verifying product prices count...
+2025-07-01 17:52:55,908 INFO t.InventoryTest [main] Testing Add to Cart functionality...
+2025-07-01 17:52:56,078 INFO f.p.InventoryPage [main] Clicked Add to Cart on first product
+2025-07-01 17:52:56,078 INFO t.InventoryTest [main] Verifying menu button visibility...
+2025-07-01 17:52:56,163 INFO f.p.InventoryPage [main] Menu button visible: true
+2025-07-01 17:52:56,163 INFO t.InventoryTest [main] Inventory Page test ends
+2025-07-01 17:52:56,271 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 17:58:29,223 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 17:58:30,185 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 17:58:30,240 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 17:58:34,495 INFO t.InventoryTest [main] Inventory Page test begins
+2025-07-01 17:58:34,571 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 17:58:35,386 INFO t.InventoryTest [main] Verifying page title...
+2025-07-01 17:58:35,459 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 17:58:35,497 INFO f.p.InventoryPage [main] Total number of products: 6
+2025-07-01 17:58:35,497 INFO t.InventoryTest [main] Verifying product count...
+2025-07-01 17:58:35,559 INFO f.p.InventoryPage [main] Product name: Sauce Labs Backpack
+2025-07-01 17:58:35,592 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bike Light
+2025-07-01 17:58:35,627 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bolt T-Shirt
+2025-07-01 17:58:35,662 INFO f.p.InventoryPage [main] Product name: Sauce Labs Fleece Jacket
+2025-07-01 17:58:35,692 INFO f.p.InventoryPage [main] Product name: Sauce Labs Onesie
+2025-07-01 17:58:35,724 INFO f.p.InventoryPage [main] Product name: Test.allTheThings() T-Shirt (Red)
+2025-07-01 17:58:35,724 INFO t.InventoryTest [main] Verifying product names are listed...
+2025-07-01 17:58:35,779 INFO f.p.InventoryPage [main] Product price: $29.99
+2025-07-01 17:58:35,812 INFO f.p.InventoryPage [main] Product price: $9.99
+2025-07-01 17:58:35,845 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 17:58:35,886 INFO f.p.InventoryPage [main] Product price: $49.99
+2025-07-01 17:58:35,925 INFO f.p.InventoryPage [main] Product price: $7.99
+2025-07-01 17:58:35,969 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 17:58:35,970 INFO t.InventoryTest [main] Verifying product prices count...
+2025-07-01 17:58:35,970 INFO t.InventoryTest [main] Testing Add to Cart functionality...
+2025-07-01 17:58:36,105 INFO f.p.InventoryPage [main] Clicked Add to Cart on first product
+2025-07-01 17:58:36,105 INFO t.InventoryTest [main] Verifying menu button visibility...
+2025-07-01 17:58:36,157 INFO f.p.InventoryPage [main] Menu button visible: true
+2025-07-01 17:58:36,157 INFO t.InventoryTest [main] Inventory Page test ends
+2025-07-01 17:58:36,188 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:02:18,602 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:02:19,713 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:02:19,766 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:02:24,925 INFO t.InventoryTest [main] Inventory Page test begins
+2025-07-01 18:02:25,026 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 18:02:25,729 INFO t.InventoryTest [main] Verifying page title...
+2025-07-01 18:02:25,792 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 18:02:25,820 INFO f.p.InventoryPage [main] Total number of products: 6
+2025-07-01 18:02:25,821 INFO t.InventoryTest [main] Verifying product count...
+2025-07-01 18:02:25,883 INFO f.p.InventoryPage [main] Product name: Sauce Labs Backpack
+2025-07-01 18:02:25,927 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bike Light
+2025-07-01 18:02:25,969 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bolt T-Shirt
+2025-07-01 18:02:26,006 INFO f.p.InventoryPage [main] Product name: Sauce Labs Fleece Jacket
+2025-07-01 18:02:26,041 INFO f.p.InventoryPage [main] Product name: Sauce Labs Onesie
+2025-07-01 18:02:26,077 INFO f.p.InventoryPage [main] Product name: Test.allTheThings() T-Shirt (Red)
+2025-07-01 18:02:26,078 INFO t.InventoryTest [main] Verifying product names are listed...
+2025-07-01 18:02:26,133 INFO f.p.InventoryPage [main] Product price: $29.99
+2025-07-01 18:02:26,165 INFO f.p.InventoryPage [main] Product price: $9.99
+2025-07-01 18:02:26,205 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 18:02:26,247 INFO f.p.InventoryPage [main] Product price: $49.99
+2025-07-01 18:02:26,295 INFO f.p.InventoryPage [main] Product price: $7.99
+2025-07-01 18:02:26,336 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 18:02:26,336 INFO t.InventoryTest [main] Verifying product prices count...
+2025-07-01 18:02:26,337 INFO t.InventoryTest [main] Testing Add to Cart functionality...
+2025-07-01 18:02:26,480 INFO f.p.InventoryPage [main] Clicked Add to Cart on first product
+2025-07-01 18:02:26,481 INFO t.InventoryTest [main] Verifying menu button visibility...
+2025-07-01 18:02:26,549 INFO f.p.InventoryPage [main] Menu button visible: true
+2025-07-01 18:02:26,549 INFO t.InventoryTest [main] Inventory Page test ends
+2025-07-01 18:02:26,589 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:02:28,072 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:02:28,112 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:02:28,131 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:02:31,297 INFO t.LoginTest [main] Starting invalidLoginTest
+2025-07-01 18:02:31,298 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 18:02:32,115 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:02:32,442 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:02:32,467 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:02:32,483 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:02:35,579 INFO t.LoginTest [main] Starting invalidLoginTest
+2025-07-01 18:02:35,580 INFO f.p.LoginPage [main] Logging in with user: locked_out_user
+2025-07-01 18:02:36,363 ERROR f.p.LoginPage [main] Login failed with message: Epic sadface: Username and password do not match any user in this service
+2025-07-01 18:02:36,363 WARN t.LoginTest [main] Error message shown: Epic sadface: Username and password do not match any user in this service
+2025-07-01 18:02:36,372 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:02:36,726 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:02:36,750 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:02:36,774 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:02:39,419 INFO t.LoginTest [main] Starting validLoginTest
+2025-07-01 18:02:39,420 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 18:02:40,139 INFO t.LoginTest [main] Navigated to URL: https://www.saucedemo.com/inventory.html
+2025-07-01 18:02:40,184 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 18:02:40,184 INFO t.LoginTest [main] Page title is: Products
+2025-07-01 18:02:40,189 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:02:40,457 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:02:40,474 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:02:40,485 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:02:43,161 INFO t.LoginTest [main] Starting validLoginTest
+2025-07-01 18:02:43,162 INFO f.p.LoginPage [main] Logging in with user: locked_out_user
+2025-07-01 18:02:43,736 INFO t.LoginTest [main] Navigated to URL: https://www.saucedemo.com/
+2025-07-01 18:02:43,751 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:06:11,427 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:06:12,425 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:06:12,491 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:06:16,943 INFO t.InventoryTest [main] Inventory Page test begins
+2025-07-01 18:06:16,992 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 18:06:17,694 INFO t.InventoryTest [main] Verifying page title...
+2025-07-01 18:06:17,773 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 18:06:17,804 INFO f.p.InventoryPage [main] Total number of products: 6
+2025-07-01 18:06:17,804 INFO t.InventoryTest [main] Verifying product count...
+2025-07-01 18:06:17,909 INFO f.p.InventoryPage [main] Product name: Sauce Labs Backpack
+2025-07-01 18:06:17,962 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bike Light
+2025-07-01 18:06:18,001 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bolt T-Shirt
+2025-07-01 18:06:18,032 INFO f.p.InventoryPage [main] Product name: Sauce Labs Fleece Jacket
+2025-07-01 18:06:18,065 INFO f.p.InventoryPage [main] Product name: Sauce Labs Onesie
+2025-07-01 18:06:18,095 INFO f.p.InventoryPage [main] Product name: Test.allTheThings() T-Shirt (Red)
+2025-07-01 18:06:18,095 INFO t.InventoryTest [main] Verifying product names are listed...
+2025-07-01 18:06:18,142 INFO f.p.InventoryPage [main] Product price: $29.99
+2025-07-01 18:06:18,172 INFO f.p.InventoryPage [main] Product price: $9.99
+2025-07-01 18:06:18,210 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 18:06:18,246 INFO f.p.InventoryPage [main] Product price: $49.99
+2025-07-01 18:06:18,278 INFO f.p.InventoryPage [main] Product price: $7.99
+2025-07-01 18:06:18,307 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 18:06:18,308 INFO t.InventoryTest [main] Verifying product prices count...
+2025-07-01 18:06:18,308 INFO t.InventoryTest [main] Testing Add to Cart functionality...
+2025-07-01 18:06:18,426 INFO f.p.InventoryPage [main] Clicked Add to Cart on first product
+2025-07-01 18:06:18,427 INFO t.InventoryTest [main] Verifying menu button visibility...
+2025-07-01 18:06:18,475 INFO f.p.InventoryPage [main] Menu button visible: true
+2025-07-01 18:06:18,475 INFO t.InventoryTest [main] Inventory Page test ends
+2025-07-01 18:06:18,501 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:19:39,517 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:19:41,035 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:19:41,132 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:19:47,238 INFO t.InventoryTest [main] Inventory Page test begins
+2025-07-01 18:19:47,322 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 18:19:48,075 INFO t.InventoryTest [main] Verifying page title...
+2025-07-01 18:19:48,133 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 18:19:48,169 INFO f.p.InventoryPage [main] Total number of products: 6
+2025-07-01 18:19:48,170 INFO t.InventoryTest [main] Verifying product count...
+2025-07-01 18:19:48,228 INFO f.p.InventoryPage [main] Product name: Sauce Labs Backpack
+2025-07-01 18:19:48,265 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bike Light
+2025-07-01 18:19:48,299 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bolt T-Shirt
+2025-07-01 18:19:48,331 INFO f.p.InventoryPage [main] Product name: Sauce Labs Fleece Jacket
+2025-07-01 18:19:48,369 INFO f.p.InventoryPage [main] Product name: Sauce Labs Onesie
+2025-07-01 18:19:48,403 INFO f.p.InventoryPage [main] Product name: Test.allTheThings() T-Shirt (Red)
+2025-07-01 18:19:48,403 INFO t.InventoryTest [main] Verifying product names are listed...
+2025-07-01 18:19:48,457 INFO f.p.InventoryPage [main] Product price: $29.99
+2025-07-01 18:19:48,489 INFO f.p.InventoryPage [main] Product price: $9.99
+2025-07-01 18:19:48,518 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 18:19:48,551 INFO f.p.InventoryPage [main] Product price: $49.99
+2025-07-01 18:19:48,598 INFO f.p.InventoryPage [main] Product price: $7.99
+2025-07-01 18:19:48,628 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 18:19:48,629 INFO t.InventoryTest [main] Verifying product prices count...
+2025-07-01 18:19:48,629 INFO t.InventoryTest [main] Testing Add to Cart functionality...
+2025-07-01 18:19:48,834 INFO f.p.InventoryPage [main] Clicked Add to Cart on first product
+2025-07-01 18:19:48,834 INFO t.InventoryTest [main] Verifying menu button visibility...
+2025-07-01 18:19:48,880 INFO f.p.InventoryPage [main] Menu button visible: true
+2025-07-01 18:19:48,881 INFO t.InventoryTest [main] Inventory Page test ends
+2025-07-01 18:19:48,906 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:19:50,339 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:19:50,382 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:19:50,409 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:19:53,033 INFO t.LoginTest [main] Starting invalidLoginTest
+2025-07-01 18:19:53,034 INFO f.p.LoginPage [main] Logging in with user: locked_out_user
+2025-07-01 18:19:53,824 ERROR f.p.LoginPage [main] Login failed with message: Epic sadface: Username and password do not match any user in this service
+2025-07-01 18:19:53,825 WARN t.LoginTest [main] Error message shown: Epic sadface: Username and password do not match any user in this service
+2025-07-01 18:19:53,832 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:19:54,268 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:19:54,293 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:19:54,308 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:19:57,082 INFO t.LoginTest [main] Starting validLoginTest
+2025-07-01 18:19:57,083 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 18:19:57,810 INFO t.LoginTest [main] Navigated to URL: https://www.saucedemo.com/inventory.html
+2025-07-01 18:19:57,863 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 18:19:57,863 INFO t.LoginTest [main] Page title is: Products
+2025-07-01 18:19:57,868 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:29:59,022 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:30:00,232 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:30:00,305 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:30:04,830 INFO t.InventoryTest [main] Inventory Page test begins
+2025-07-01 18:30:04,994 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 18:30:05,630 INFO t.InventoryTest [main] Verifying page title...
+2025-07-01 18:30:05,697 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 18:30:05,728 INFO f.p.InventoryPage [main] Total number of products: 6
+2025-07-01 18:30:05,729 INFO t.InventoryTest [main] Verifying product count...
+2025-07-01 18:30:05,791 INFO f.p.InventoryPage [main] Product name: Sauce Labs Backpack
+2025-07-01 18:30:05,829 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bike Light
+2025-07-01 18:30:05,865 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bolt T-Shirt
+2025-07-01 18:30:05,904 INFO f.p.InventoryPage [main] Product name: Sauce Labs Fleece Jacket
+2025-07-01 18:30:05,947 INFO f.p.InventoryPage [main] Product name: Sauce Labs Onesie
+2025-07-01 18:30:05,990 INFO f.p.InventoryPage [main] Product name: Test.allTheThings() T-Shirt (Red)
+2025-07-01 18:30:05,990 INFO t.InventoryTest [main] Verifying product names are listed...
+2025-07-01 18:30:06,052 INFO f.p.InventoryPage [main] Product price: $29.99
+2025-07-01 18:30:06,084 INFO f.p.InventoryPage [main] Product price: $9.99
+2025-07-01 18:30:06,121 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 18:30:06,154 INFO f.p.InventoryPage [main] Product price: $49.99
+2025-07-01 18:30:06,185 INFO f.p.InventoryPage [main] Product price: $7.99
+2025-07-01 18:30:06,225 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-07-01 18:30:06,225 INFO t.InventoryTest [main] Verifying product prices count...
+2025-07-01 18:30:06,226 INFO t.InventoryTest [main] Testing Add to Cart functionality...
+2025-07-01 18:30:06,333 INFO f.p.InventoryPage [main] Clicked Add to Cart on first product
+2025-07-01 18:30:06,334 INFO t.InventoryTest [main] Verifying menu button visibility...
+2025-07-01 18:30:06,382 INFO f.p.InventoryPage [main] Menu button visible: true
+2025-07-01 18:30:06,383 INFO t.InventoryTest [main] Inventory Page test ends
+2025-07-01 18:30:06,414 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:30:07,574 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:30:07,607 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:30:07,627 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:30:10,667 INFO t.LoginTest [main] Starting invalidLoginTest
+2025-07-01 18:30:10,668 INFO f.p.LoginPage [main] Logging in with user: locked_out_user
+2025-07-01 18:30:11,355 ERROR f.p.LoginPage [main] Login failed with message: Epic sadface: Username and password do not match any user in this service
+2025-07-01 18:30:11,355 WARN t.LoginTest [main] Error message shown: Epic sadface: Username and password do not match any user in this service
+2025-07-01 18:30:11,362 INFO t.BaseTest [main] Quitting browser...
+2025-07-01 18:30:11,601 INFO t.BaseTest [main] Setting configuration...
+2025-07-01 18:30:11,624 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-01 18:30:11,645 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-01 18:30:14,497 INFO t.LoginTest [main] Starting validLoginTest
+2025-07-01 18:30:14,499 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-07-01 18:30:15,133 INFO t.LoginTest [main] Navigated to URL: https://www.saucedemo.com/inventory.html
+2025-07-01 18:30:15,188 INFO f.p.InventoryPage [main] Page title: Products
+2025-07-01 18:30:15,189 INFO t.LoginTest [main] Page title is: Products
+2025-07-01 18:30:15,196 INFO t.BaseTest [main] Quitting browser...

@@ -7,6 +7,7 @@ import framework.pages.LoginPage;
 import framework.pages.InventoryPage;
 
 import io.qameta.allure.*;
+import dataproviders.LoginDataProvider;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,15 +17,14 @@ import org.apache.logging.log4j.Logger;
 public class LoginTest extends BaseTest {
     private static final Logger log = LogManager.getLogger(LoginTest.class);
 
-    @Test(description = "Valid login should navigate to Inventory page")
+    @Test(description = "Valid login should navigate to Inventory page", dataProvider = "validLoginData", dataProviderClass = LoginDataProvider.class)
     @Severity(SeverityLevel.CRITICAL)
     @Description("Test to verify valid login for standard user")
-    public void validLoginTest() {
+    public void validLoginTest(String username, String password) {
         log.info("Starting validLoginTest");
-
         LoginPage loginPage = new LoginPage(DriverManager.getDriver());
 
-        InventoryPage inventoryPage = loginPage.login("standard_user", "secret_sauce");
+        InventoryPage inventoryPage = loginPage.login(username, password);
 
         String currentUrl = inventoryPage.getCurrentUrl();
         log.info("Navigated to URL: " + currentUrl);
@@ -35,14 +35,14 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(title, "Products", "Page title is incorrect");
     }
 
-    @Test(description = "Invalid login should show an error message")
+    @Test(description = "Invalid login should show an error message", dataProvider = "invalidLoginData", dataProviderClass = LoginDataProvider.class)
     @Severity(SeverityLevel.NORMAL)
     @Description("Test to verify login fails with invalid credentials")
-    public void invalidLoginTest() {
+    public void invalidLoginTest(String username, String password) {
         log.info("Starting invalidLoginTest");
 
         LoginPage loginPage = new LoginPage(DriverManager.getDriver());
-        loginPage.login("locked_out_user", "wrong_password");
+        loginPage.login(username, password);
 
         String errorMessage = loginPage.getErrorMessage();
         log.warn("Error message shown: " + errorMessage);
