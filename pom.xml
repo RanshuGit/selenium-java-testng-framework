@@ -83,12 +83,15 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.1.2</version>
+				<version>3.5.2</version>
 				<configuration>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
-				</configuration>
+					<suiteXmlFiles>
+            			<suiteXmlFile>testng-parallel.xml</suiteXmlFile>
+          			</suiteXmlFiles>		
+				</configuration>	
 				<dependencies>
 					<dependency>
 						<groupId>org.aspectj</groupId>
@@ -106,3 +109,4 @@
 		</plugins>
 	</build>
 </project>
+	

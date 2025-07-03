@@ -1,6 +1,6 @@
 # Selenium Java TestNG Automation Framework
 
-This project is a Selenium-based automation testing framework built using Java, TestNG, Maven, and Log4j2. It supports parallel execution, environment-specific configuration, Allure reporting, and GitHub Actions CI integration.
+This project is a Selenium-based automation testing framework built using Java, TestNG, Maven. It supports parallel execution, environment-specific configuration, Allure reporting, and GitHub Actions CI integration.
 
 ## Features
 
@@ -9,6 +9,7 @@ This project is a Selenium-based automation testing framework built using Java, 
 - Thread-safe WebDriver using ThreadLocal  
 - Environment configuration support (e.g., `stage`, `dev`)  
 - Cross-browser execution (Chrome, Firefox, Edge)  
+- TestNG Parallel Execution
 - Logging using Log4j2  
 - Allure reporting integration  
 - GitHub Actions CI setup  
@@ -21,30 +22,41 @@ selenium-java-testng-framework/
 │   ├── main/
 │   │   └── java/
 │   │       └── framework/
-│   │           ├── config/           
-│   │           ├── drivers/          
-│   │           └── pages/           
+│   │           ├── config/                 # ConfigReader, env properties loader
+│   │           ├── drivers/                # DriverManager with ThreadLocal WebDriver
+│   │           ├── pages/                  # Page Object classes (LoginPage, InventoryPage, etc.)
+│   │           └── utils/                  # Utility classes (WaitHelper, ElementActions - upcoming)
 │   └── test/
 │       ├── java/
-│       │   └── tests/               
+│       │   ├── tests/                      # TestNG test classes (LoginTest, InventoryTest)
+│       │   └── tests/dataproviders/       # JSON-based DataProvider classes
 │       └── resources/
-│           ├── config/             
-│           └── log4j2.xml           
+│           ├── config/
+│           │   ├── config_dev.properties
+│           │   ├── config_stage.properties
+│           │   └── config_qa.properties
+│           ├── testdata/
+│           │   └── loginData.json         # Test data used by JsonDataProvider
+│           └── log4j2.xml                 # Logging configuration
 ├── .github/
 │   └── workflows/
-│       └── selenium.yml             
-├── allure-results/                 
-├── logs/                           
-├── pom.xml
-└── README.md
+│       └── selenium.yml                   # GitHub Actions CI config (runs tests, generates Allure report)
+├── allure-results/                        # Allure test result output (generated)
+├── logs/                                  # Application/test logs
+├── testng-parallel.xml                    # TestNG suite file for parallel execution
+├── jenkins/
+│   └── Jenkinsfile                        # Jenkins pipeline for test execution (to be added)
+├── pom.xml                                # Maven build file (includes Surefire, Allure, TestNG config)
+└── README.md                              # Project documentation
+
 ```
 
 ## How to Run
 
-### Locally
+### Locally + Parallel
 
 ```bash
-mvn clean test -Dbrowser=chrome -Denv=stage
+mvn clean test -Dheadless=false -Dbrowser=chrome -Denv=stage
 ```
 
 ### On GitHub Actions

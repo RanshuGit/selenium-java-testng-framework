@@ -26,21 +26,20 @@ public class DriverManager {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--headless=new");
-                chromeOptions.addArguments("--no-sandbox");
-                chromeOptions.addArguments("--disable-dev-shm-usage");
-                chromeOptions.addArguments("--disable-gpu");
+                if (System.getProperty("headless", "false").equalsIgnoreCase("true")) {
+                    chromeOptions.addArguments("--headless=new");
+                }
                 chromeOptions.addArguments("--window-size=1920,1080");
-                chromeOptions.addArguments("--user-data-dir=/tmp/chrome-profile-" + System.currentTimeMillis());
                 driver.set(new ChromeDriver(chromeOptions));
                 break;
 
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
-                firefoxOptions.addArguments("--headless");
-                firefoxOptions.addArguments("--width=1920");
-                firefoxOptions.addArguments("--height=1080");
+                if (System.getProperty("headless", "false").equalsIgnoreCase("true")) {
+                    firefoxOptions.addArguments("--headless=new");
+                }
+                firefoxOptions.addArguments("--window-size=1920,1080");
                 driver.set(new FirefoxDriver(firefoxOptions));
                 break;
 
