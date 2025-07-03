@@ -40,12 +40,10 @@ selenium-java-testng-framework/
 │           └── log4j2.xml                 # Logging configuration
 ├── .github/
 │   └── workflows/
-│       └── selenium.yml                   # GitHub Actions CI config (runs tests, generates Allure report)
+│       └── maventest.yml                   # GitHub Actions CI config (runs tests, generates Allure report)
 ├── allure-results/                        # Allure test result output (generated)
 ├── logs/                                  # Application/test logs
 ├── testng-parallel.xml                    # TestNG suite file for parallel execution
-├── jenkins/
-│   └── Jenkinsfile                        # Jenkins pipeline for test execution (to be added)
 ├── pom.xml                                # Maven build file (includes Surefire, Allure, TestNG config)
 └── README.md                              # Project documentation
 
@@ -75,9 +73,6 @@ To generate the report locally:
 ```bash
 allure serve allure-results
 ```
-
-Or download the Allure CLI from:  
-https://docs.qameta.io/allure/
 
 ## Logging
 
