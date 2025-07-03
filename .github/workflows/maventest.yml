@@ -30,7 +30,7 @@ jobs:
             ${{ runner.os }}-m2
 
       - name: Run Tests
-        run: mvn clean test -Dheadless=false -Dbrowser=chrome -Denv=stage
+        run: mvn clean test -Dheadless=true -Dbrowser=chrome -Denv=stage
 
       - name: Download Allure CLI
         run: |

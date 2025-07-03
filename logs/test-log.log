@@ -1424,3 +1424,50 @@
 2025-07-03 13:36:16,992 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Menu button visible: true
 2025-07-03 13:36:16,992 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Inventory Page test ends
 2025-07-03 13:36:16,997 INFO t.BaseTest [TestNG-test-Inventory Tests-1] Quitting browser...
+2025-07-03 13:45:44,056 WARN o.t.x.TestNGContentHandler [main] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\TESTRIG\eclipse-workspace\SeleniumScripts\testng-parallel.xml] otherwise TestNG may fail or not work as expected.
+2025-07-03 13:45:48,403 INFO t.BaseTest [TestNG-test-Login Tests-2] Setting configuration...
+2025-07-03 13:45:48,403 INFO t.BaseTest [TestNG-test-Login Tests-1] Setting configuration...
+2025-07-03 13:45:51,638 INFO i.g.b.w.WebDriverManager [TestNG-test-Login Tests-1] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-03 13:45:51,686 INFO i.g.b.w.WebDriverManager [TestNG-test-Login Tests-1] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-03 13:45:51,708 INFO i.g.b.w.WebDriverManager [TestNG-test-Login Tests-2] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-03 13:45:51,735 INFO i.g.b.w.WebDriverManager [TestNG-test-Login Tests-2] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-03 13:45:58,953 INFO t.LoginTest [TestNG-test-Login Tests-2] Starting validLoginTest
+2025-07-03 13:45:58,953 INFO t.LoginTest [TestNG-test-Login Tests-1] Starting invalidLoginTest
+2025-07-03 13:45:59,068 INFO f.p.LoginPage [TestNG-test-Login Tests-1] Logging in with user: locked_out_user
+2025-07-03 13:45:59,068 INFO f.p.LoginPage [TestNG-test-Login Tests-2] Logging in with user: standard_user
+2025-07-03 13:46:03,419 ERROR f.p.LoginPage [TestNG-test-Login Tests-1] Login failed with message: Epic sadface: Username and password do not match any user in this service
+2025-07-03 13:46:03,419 WARN t.LoginTest [TestNG-test-Login Tests-1] Error message shown: Epic sadface: Username and password do not match any user in this service
+2025-07-03 13:46:03,486 INFO t.BaseTest [TestNG-test-Login Tests-1] Quitting browser...
+2025-07-03 13:46:03,540 INFO t.LoginTest [TestNG-test-Login Tests-2] Navigated to URL: https://www.saucedemo.com/inventory.html
+2025-07-03 13:46:03,747 INFO f.p.InventoryPage [TestNG-test-Login Tests-2] Page title: Products
+2025-07-03 13:46:03,747 INFO t.LoginTest [TestNG-test-Login Tests-2] Page title is: Products
+2025-07-03 13:46:03,755 INFO t.BaseTest [TestNG-test-Login Tests-2] Quitting browser...
+2025-07-03 13:46:04,984 INFO t.BaseTest [TestNG-test-Inventory Tests-1] Setting configuration...
+2025-07-03 13:46:05,026 INFO i.g.b.w.WebDriverManager [TestNG-test-Inventory Tests-1] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-07-03 13:46:05,051 INFO i.g.b.w.WebDriverManager [TestNG-test-Inventory Tests-1] Exporting webdriver.chrome.driver as C:\Users\TESTRIG\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-07-03 13:46:09,474 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Inventory Page test begins
+2025-07-03 13:46:09,476 INFO f.p.LoginPage [TestNG-test-Inventory Tests-1] Logging in with user: standard_user
+2025-07-03 13:46:10,889 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Verifying page title...
+2025-07-03 13:46:11,230 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Page title: Products
+2025-07-03 13:46:11,307 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Total number of products: 6
+2025-07-03 13:46:11,308 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Verifying product count...
+2025-07-03 13:46:11,501 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product name: Sauce Labs Backpack
+2025-07-03 13:46:11,545 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product name: Sauce Labs Bike Light
+2025-07-03 13:46:11,681 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product name: Sauce Labs Bolt T-Shirt
+2025-07-03 13:46:11,702 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product name: Sauce Labs Fleece Jacket
+2025-07-03 13:46:11,731 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product name: Sauce Labs Onesie
+2025-07-03 13:46:11,762 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product name: Test.allTheThings() T-Shirt (Red)
+2025-07-03 13:46:11,763 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Verifying product names are listed...
+2025-07-03 13:46:11,820 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product price: $29.99
+2025-07-03 13:46:11,848 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product price: $9.99
+2025-07-03 13:46:11,877 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product price: $15.99
+2025-07-03 13:46:11,899 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product price: $49.99
+2025-07-03 13:46:11,919 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product price: $7.99
+2025-07-03 13:46:12,037 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Product price: $15.99
+2025-07-03 13:46:12,038 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Verifying product prices count...
+2025-07-03 13:46:12,038 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Testing Add to Cart functionality...
+2025-07-03 13:46:12,235 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Clicked Add to Cart on first product
+2025-07-03 13:46:12,235 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Verifying menu button visibility...
+2025-07-03 13:46:12,313 INFO f.p.InventoryPage [TestNG-test-Inventory Tests-1] Menu button visible: true
+2025-07-03 13:46:12,314 INFO t.InventoryTest [TestNG-test-Inventory Tests-1] Inventory Page test ends
+2025-07-03 13:46:12,322 INFO t.BaseTest [TestNG-test-Inventory Tests-1] Quitting browser...
