@@ -422,3 +422,45 @@
 2025-06-27 12:33:05,797 INFO f.p.InventoryPage [main] Page title: Products
 2025-06-27 12:33:05,797 INFO t.LoginTest [main] Page title is: Products
 2025-06-27 12:33:05,821 INFO t.BaseTest [main] Quitting browser...
+2025-06-29 10:15:00,907 INFO t.BaseTest [main] Setting configuration...
+2025-06-29 10:15:04,096 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-29 10:15:04,205 INFO i.g.b.w.o.Downloader [main] Downloading https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win64/chromedriver-win64.zip
+2025-06-29 10:15:05,924 INFO i.g.b.w.o.Downloader [main] Extracting driver from compressed file chromedriver-win64.zip
+2025-06-29 10:15:06,123 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\Anshu\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-29 10:15:09,881 INFO t.InventoryTest [main] Inventory Page begins
+2025-06-29 10:15:09,883 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-06-29 10:15:10,309 INFO f.p.InventoryPage [main] Page title: Products
+2025-06-29 10:15:10,330 INFO f.p.InventoryPage [main] Total number of products: 6
+2025-06-29 10:15:10,370 INFO f.p.InventoryPage [main] Product name: Sauce Labs Backpack
+2025-06-29 10:15:10,420 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bike Light
+2025-06-29 10:15:10,452 INFO f.p.InventoryPage [main] Product name: Sauce Labs Bolt T-Shirt
+2025-06-29 10:15:10,489 INFO f.p.InventoryPage [main] Product name: Sauce Labs Fleece Jacket
+2025-06-29 10:15:10,521 INFO f.p.InventoryPage [main] Product name: Sauce Labs Onesie
+2025-06-29 10:15:10,547 INFO f.p.InventoryPage [main] Product name: Test.allTheThings() T-Shirt (Red)
+2025-06-29 10:15:10,592 INFO f.p.InventoryPage [main] Product price: $29.99
+2025-06-29 10:15:10,617 INFO f.p.InventoryPage [main] Product price: $9.99
+2025-06-29 10:15:10,642 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-06-29 10:15:10,672 INFO f.p.InventoryPage [main] Product price: $49.99
+2025-06-29 10:15:10,703 INFO f.p.InventoryPage [main] Product price: $7.99
+2025-06-29 10:15:10,735 INFO f.p.InventoryPage [main] Product price: $15.99
+2025-06-29 10:15:10,825 INFO f.p.InventoryPage [main] Clicked Add to Cart on first product
+2025-06-29 10:15:10,862 INFO f.p.InventoryPage [main] Menu button visible: true
+2025-06-29 10:15:10,863 INFO t.InventoryTest [main] Inventory Page ends
+2025-06-29 10:15:10,893 INFO t.BaseTest [main] Quitting browser...
+2025-06-29 10:15:11,120 INFO t.BaseTest [main] Setting configuration...
+2025-06-29 10:15:11,291 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-29 10:15:11,297 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\Anshu\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-29 10:15:12,612 INFO t.LoginTest [main] Starting invalidLoginTest
+2025-06-29 10:15:12,613 INFO f.p.LoginPage [main] Logging in with user: locked_out_user
+2025-06-29 10:15:12,983 ERROR f.p.LoginPage [main] Login failed with message: Epic sadface: Username and password do not match any user in this service
+2025-06-29 10:15:12,984 WARN t.LoginTest [main] Error message shown: Epic sadface: Username and password do not match any user in this service
+2025-06-29 10:15:12,990 INFO t.BaseTest [main] Quitting browser...
+2025-06-29 10:15:13,173 INFO t.BaseTest [main] Setting configuration...
+2025-06-29 10:15:13,202 INFO i.g.b.w.WebDriverManager [main] Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+2025-06-29 10:15:13,215 INFO i.g.b.w.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\Anshu\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+2025-06-29 10:15:14,508 INFO t.LoginTest [main] Starting validLoginTest
+2025-06-29 10:15:14,509 INFO f.p.LoginPage [main] Logging in with user: standard_user
+2025-06-29 10:15:14,867 INFO t.LoginTest [main] Navigated to URL: https://www.saucedemo.com/inventory.html
+2025-06-29 10:15:14,898 INFO f.p.InventoryPage [main] Page title: Products
+2025-06-29 10:15:14,899 INFO t.LoginTest [main] Page title is: Products
+2025-06-29 10:15:14,905 INFO t.BaseTest [main] Quitting browser...
